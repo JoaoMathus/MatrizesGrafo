@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="52385e18-f263-414b-badf-f2fcf3699266" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/GrafoNaoOrientado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/GrafoOrientado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+    <list default="true" id="52385e18-f263-414b-badf-f2fcf3699266" name="Changes" comment="O projeto.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GrafoOrientado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GrafoOrientado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -50,6 +53,15 @@
       <option name="presentableId" value="Default" />
       <updated>1712185768274</updated>
     </task>
+    <task id="LOCAL-00001" summary="O projeto.">
+      <option name="closed" value="true" />
+      <created>1712186026404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712186026404</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -62,5 +74,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="O projeto." />
+    <option name="LAST_COMMIT_MESSAGE" value="O projeto." />
   </component>
 </project>
