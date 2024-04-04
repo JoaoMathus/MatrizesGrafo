@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52385e18-f263-414b-badf-f2fcf3699266" name="Changes" comment="O projeto.">
+    <list default="true" id="52385e18-f263-414b-badf-f2fcf3699266" name="Changes" comment="Agora sim: fim do trabalho. Input feito com sucesso!">
+      <change afterPath="$PROJECT_DIR$/src/main/Entrada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GrafoNaoOrientado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GrafoNaoOrientado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GrafoOrientado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GrafoOrientado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
@@ -61,7 +63,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712186026404</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fim do trabalho: conversão de matrizes de incidência para matrizes de adjacências com grafos orientados e não orientados.">
+      <option name="closed" value="true" />
+      <created>1712188497612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712188497612</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,6 +87,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="O projeto." />
-    <option name="LAST_COMMIT_MESSAGE" value="O projeto." />
+    <MESSAGE value="Fim do trabalho: conversão de matrizes de incidência para matrizes de adjacências com grafos orientados e não orientados." />
+    <MESSAGE value="Agora sim: fim do trabalho. Input feito com sucesso!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agora sim: fim do trabalho. Input feito com sucesso!" />
   </component>
 </project>

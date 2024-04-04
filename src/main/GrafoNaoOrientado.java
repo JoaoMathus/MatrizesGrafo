@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GrafoNaoOrientado {
-    public static int[][] criarIncidencia(int numeroVertices, int[][] arestas) {
-        int numeroArestas = arestas.length;
+    public static int[][] criarIncidencia(int numeroVertices, List<Integer[]> arestas) {
+        int numeroArestas = arestas.size();
         int[][] incidencia = new int[numeroVertices][numeroArestas];
 
         for (int i = 0; i < numeroArestas; i++) {
-            incidencia[arestas[i][0]-1][i] += 1;
-            incidencia[arestas[i][1]-1][i] += 1;
+            incidencia[arestas.get(i)[0]-1][i] += 1;
+            incidencia[arestas.get(i)[1]-1][i] += 1;
         }
 
         return incidencia;

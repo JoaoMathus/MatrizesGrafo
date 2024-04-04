@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GrafoOrientado {
-    public static int[][] criarIncidencia(int numeroVertices, int[][] arestas) {
-        int numeroArestas = arestas.length;
+    public static int[][] criarIncidencia(int numeroVertices, List<Integer[]> arestas) {
+        int numeroArestas = arestas.size();
         int[][] incidencia = new int[numeroVertices][numeroArestas];
 
         for (int i = 0; i < numeroArestas; i++) {
-            int v1 = arestas[i][0];
-            int v2 = arestas[i][1];
+            int v1 = arestas.get(i)[0];
+            int v2 = arestas.get(i)[1];
             if (v1 == v2) {
                 incidencia[v1-1][i] += 1;
             } else {
