@@ -8,6 +8,7 @@ public class GrafoOrientado {
         int numeroArestas = arestas.size();
         int[][] incidencia = new int[numeroVertices][numeroArestas];
 
+
         for (int i = 0; i < numeroArestas; i++) {
             int v1 = arestas.get(i)[0];
             int v2 = arestas.get(i)[1];
